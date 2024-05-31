@@ -1,0 +1,25 @@
+.opened_item_box {
+      background-color: var(--white-background);
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+      padding: 15px;
+      border-radius: 7px;
+      border: 1px solid var(--translucent-border);
+      margin: 30px 10px ;
+
+}
+
+.opened_item_box img {
+      width: 100%;
+}
+
+.opened_item_box .opened_item_url {
+      padding: 7px 0;
+}
+
+.opened_item_box .opened_item_title {
+      padding: 7px 0;
+      font-weight: 600;
+      font-size: 1.2rem;
+}
